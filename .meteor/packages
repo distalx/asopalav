@@ -22,3 +22,5 @@ twbs:bootstrap
 fortawesome:fontawesome
 kadira:flow-router
 kadira:blaze-layout
+useraccounts:bootstrap
+useraccounts:flow-routing
