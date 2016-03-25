@@ -30,5 +30,5 @@ Meteor.startup(function () {
 
   });
 
-
+  }
 });
