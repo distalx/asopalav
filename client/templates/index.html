@@ -1,5 +1,39 @@
 <template name="index">
   <div class="container">
-    <h1>simple login demo</h1>
-  </div>
+
+    <div class="col-xs-3">
+      {{> atForm}}
+    </div><!--col-xs-3-->
+
+    <div class="col-xs-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">Default users</div>
+        <div class="panel-body">
+          <table class="table table-striped">
+            <tr>
+              <th>email</th>
+              <th>password</th>
+            </tr>
+            <tr>
+              <td>admin@example.com</td>
+              <td>demo123</td>
+            </tr>
+            <tr>
+              <td>author@example.com</td>
+              <td>demo123</td>
+            </tr>
+            <tr>
+              <td>moderator@example.com</td>
+              <td>demo123</td>
+            </tr>
+            <tr>
+              <td>user@example.com</td>
+              <td>demo123</td>
+            </tr>
+          </table>
+        </div>
+      </div><!--panel-->
+    </div><!--col-xs-9-->
+
+  </div><!--container-->
 </template>
